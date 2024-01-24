@@ -10,8 +10,8 @@ The project requires a few open-source libraries.
 
 OpenCV (v3.1)<br/>
 PCL (v1.8)<br/>
-Fade2.5D (v1.73)
-Note: For installation on Ubuntu, Fade2D must be cloned in the same directory that this repo is located.
+Fade2.5D (v1.73)\
+Note: For installation on Ubuntu, Fade2D must be cloned in the same directory that this repo is located.\
 https://github.com/Lee0326/Fade2D
 
 3rdParty libraries used by PCL<br/>
@@ -21,10 +21,10 @@ Flann
 
 # How to run on Ubuntu
 In the root folder:
-mkdir build
-cd build
-cmake ..
-make
+`mkdir build`\
+`cd build`\
+`cmake ..`\
+`make`
 
 
 # Setup
