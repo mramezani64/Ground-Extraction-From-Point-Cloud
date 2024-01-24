@@ -24,15 +24,15 @@
 #include <map>
 #include <algorithm>
 #include <list>
-#include <windows.h>
+// #include <windows.h>
 #include <iostream>
 #include <tuple>
 
-#include <opencv2\core\core.hpp>
-#include <opencv2\imgproc.hpp>
-#include <opencv\cv.hpp>
-#include <opencv2\core\mat.hpp>
-#include <opencv2\opencv.hpp>
+#include <opencv2/core/core.hpp>
+#include <opencv2/imgproc.hpp>
+#include <opencv/cv.hpp>
+#include <opencv2/core/mat.hpp>
+#include <opencv2/opencv.hpp>
 
 #include <pcl/io/io.h>
 #include <pcl/io/pcd_io.h>
@@ -46,6 +46,6 @@
 #include <pcl/PolygonMesh.h>
 #include <pcl/segmentation/extract_polygonal_prism_data.h>
 
-#include <include_fade25d/Fade_2D.h>
+#include "Fade_2D.h"
 
 #endif
