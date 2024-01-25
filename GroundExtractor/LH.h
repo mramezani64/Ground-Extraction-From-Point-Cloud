@@ -28,11 +28,16 @@
 #include <iostream>
 #include <tuple>
 
-#include <opencv2/core/core.hpp>
-#include <opencv2/imgproc.hpp>
-#include <opencv/cv.hpp>
-#include <opencv2/core/mat.hpp>
-#include <opencv2/opencv.hpp>
+#include <opencv4/opencv2/cvconfig.h>
+#include <opencv4/opencv2/core/core.hpp>
+// #include <opencv2/core/core.hpp>
+#include <opencv4/opencv2/imgproc.hpp>
+#include <opencv4/opencv2/imgproc/imgproc_c.h>
+// #include <opencv2/imgproc.hpp>
+// #include <opencv/cv.hpp>
+#include <opencv4/opencv2/core/mat.hpp>
+// #include <opencv2/core/mat.hpp>
+#include <opencv4/opencv2/opencv.hpp>
 
 #include <pcl/io/io.h>
 #include <pcl/io/pcd_io.h>

@@ -23,7 +23,8 @@ add_executable(GroundExtractor ${SOURCE_FILES} ${HEADER_FILES})
 set_property(TARGET GroundExtractor PROPERTY CXX_STANDARD 11)
 
 # Find OpenCV package
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 4.2 REQUIRED)
+message("OpenCV VERSION:")
 find_package(PCL CONFIG REQUIRED)
 
 # Specify include directories if needed
